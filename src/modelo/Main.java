@@ -21,6 +21,9 @@ public class Main {
         //Autor tobar;
         Autor tobar=new Autor();
         tobar.apellidos="Tobar";
+        tobar.llenarAtributos("MArco Antonio");
+    
+    Autor a2=new Autor("Gabriela", "Valladares", 0, "Ibarra", "15/11/1992", "Ecuatoriana");
     }
     
 }
